@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BMI Calc</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_text">Please enter in the height and weight.</string>
+    <string name="height_text">Height (inches)</string>
+    <string name="weight_text">Weight (pounds)</string>
+    <string name="title_activity_results">Results</string>
+    <string name="BMI">BMI</string>
+    <string name="BMI_Group">BMI Group</string>
+    <string name="height_inches">Height (inches)</string>
+    <string name="weight_pounds">Weight (pounds)</string>
+    <string name="background_image">background_image</string>
+</resources>

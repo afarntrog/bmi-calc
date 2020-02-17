@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--Banner-->
+    <TextView
+        android:id="@+id/banner"
+        android:text="@string/banner_text"
+        style="@style/main_TV_banner_style" />
+
+    <!--Height-->
+    <TextView
+        android:id="@+id/tv_height"
+        android:text="@string/height_text"
+        style="@style/main_TV_style" />
+
+    <EditText
+        android:id="@+id/et_height"
+        style="@style/main_ET_style" />
+
+
+    <!--Weight-->
+    <TextView
+        android:id="@+id/tv_weight"
+        android:text="@string/weight_text"
+        style="@style/main_TV_style" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        style="@style/main_ET_style" />
+
+
+</LinearLayout>
+    <!--ctrl alt l :formats the doc-->
+    <!--padding is not an instruction to the layout. padding is selfish. i want x padding for myself-->
+    <!--        android:text="@string/banner_text" hiit alt + enter and extract text out-->
+    <!--Namespaces: Android, App, Tools-->
