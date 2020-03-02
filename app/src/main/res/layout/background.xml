@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alpha=".33"
-    android:src="@drawable/smoothie"
+    android:src="@drawable/blueberrysmoothie"
     android:contentDescription="@string/background_image"
     android:scaleType="centerCrop">
 
